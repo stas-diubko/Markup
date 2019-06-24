@@ -1,0 +1,59 @@
+@import url('reset.css');
+/* imported стили*/
+
+h2 {
+	color: blue;
+}
+
+h2 {
+	color: orange;
+	display: inline-block;
+	width: 200px;
+	margin: 30px;
+}
+
+/* кто последний, тот и прав*/
+
+.bordered {
+	/*
+	border-style: solid;
+	border-color: green;*/
+	border: 1px solid green;
+	border-width: 1px 0px;
+}
+
+.centered{
+	text-align: center;
+}
+
+#contact{
+	height: 80px;
+	background-color: lightgreen;
+}
+
+/* black #000 #000000  rgb(0,0,0) rgba(0,0,0,0.2) hsl() hsla()*/
+
+
+h3, h4, .bordered{
+	color: gray;
+}
+
+.box{
+	width: 200px;
+	height: 300px;
+	border: 3px double yellow;
+	padding: 25px 30px;
+	margin: 24px 30px 50px;
+	box-sizing: border-box;
+	overflow: auto;
+	/*overflow: hidden;*/
+	background-color: lightcoral;
+	color: #e2e2e2;
+	font-size: 20px;
+	border-radius: 10px 0;
+	text-align: center;
+	line-height: 150%;
+}
+
+/* absolute px, pt, mm, cm, in  */
+/* relative em, rem, ex, vw, vh, vmin, vmax, % */

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'HammersmithOne-Regular';
+  src: url('HammersmithOne-Regular.eot');
+  src: url('HammersmithOne-Regular.eot?#iefix') format('embedded-opentype'),
+       url('HammersmithOne-Regular.svg#HammersmithOne-Regular') format('svg'),
+       url('HammersmithOne-Regular.ttf') format('truetype'),
+       url('HammersmithOne-Regular.woff') format('woff'),
+       url('HammersmithOne-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,49 @@
+.box1{
+	display: table;
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	float: left;
+	margin: 5px;
+	}
+.clear{
+	clear: both;
+}
+
+.text{
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	}
+
+	td {
+		width: 150px;
+		height: 150px;
+		background-color: black;
+		color: white;
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.text2{
+		
+		width: 150px;
+		height: 150px;
+		background-color: black;
+		color: white;
+		display: inline-block;
+		box-sizing: border-box;
+		text-align: center;
+		margin: 0 0 10px 10px;
+		font-size: 18px;
+		line-height: 1;
+		padding-top: 25px;
+	}
+	
+	.wrap{
+		width: 500px;
+		margin: 0 auto;
+
+		}
